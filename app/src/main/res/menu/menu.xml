@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Dispositivos">
+        <menu>
+            <item
+                android:id="@+id/mnuRegistrar"
+                android:icon="@drawable/icono_registrar"
+                android:title="Registrar" />
+            <item
+                android:id="@+id/mnuEliminar"
+                android:icon="@drawable/icon_delete"
+                android:title="Eliminar" />
+        </menu>
+    </item>
+
+    <item android:title="Permisos">
+        <menu>
+            <item
+                android:id="@+id/mnuAceptarPermiso"
+                android:icon="@drawable/aceptar_permiso"
+                android:title="Aceptar" />
+            <item
+                android:id="@+id/mnuPermisos"
+                android:icon="@drawable/emitir_permiso"
+                android:title="Gestionar"></item>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/mnuFloatingButton"
+        android:title="Floating Button"/>
+    <item
+        android:id="@+id/mnuCerrarSession"
+        android:icon="@drawable/icon_cerrar_session"
+        android:title="Cerrar session" />
+    <item
+        android:id="@+id/mnuAyudaAction"
+        android:icon="@drawable/icono_ayuda"
+        android:title="Ayuda"
+        app:showAsAction="always"/>
+</menu>

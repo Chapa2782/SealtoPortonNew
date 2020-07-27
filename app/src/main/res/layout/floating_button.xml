@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutParent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/floatingButton"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/floating_button_abrir" />
+
+            <ImageView
+                android:id="@+id/buttonClose"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="60dp"
+                android:src="@drawable/boton_cerrar_floating" />
+        <ImageView
+            android:id="@+id/buttonExpandir"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="90dp"
+            android:src="@drawable/boton_expandir_floating" />
+        </RelativeLayout>
+</FrameLayout>

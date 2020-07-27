@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">SealtoPorton</string>
+    <string name="listado">Listado dispositivos</string>
+    <string name="title_activity_login">Iniciar</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar o Registrarse</string>
+    <string name="action_sign_in_short">Iniciar</string>
+    <string name="welcome">"Bienvenido !"</string>
+    <string name="invalid_username">No es un usuario valido</string>
+    <string name="invalid_password">Password must be >5 caracteres</string>
+    <string name="login_failed">"Logeo fallido"</string>
+    <string name="abierto">Abierto</string>
+
+    <string name="title_activity_spash">SpashActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

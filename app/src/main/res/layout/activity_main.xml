@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.sealtosoft.porton.Activities.MainActivity">
+
+    <Button
+        android:id="@+id/btnEstado"
+        android:layout_width="@dimen/widthBtnEstado"
+        android:layout_height="@dimen/heightBtnEstado"
+        android:layout_marginTop="@dimen/maginTopBtnEstado"
+        android:layout_gravity="center"
+        android:layout_marginEnd="20sp"
+        android:background="@drawable/estados_cerrado"
+        android:textSize="55dp"/>
+
+
+
+    <Button
+        android:id="@+id/btnAccion"
+        android:layout_marginTop="@dimen/marginTopBtnAccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_accion"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/abierto"
+        android:id="@+id/txtAbierto"
+        android:visibility="gone"
+        android:layout_marginEnd="20sp"
+        android:textColor="@color/rojo"
+        android:textSize="75dp"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+
+
+
+
+
+
+</LinearLayout>

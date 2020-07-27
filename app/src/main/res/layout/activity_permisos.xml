@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context="com.sealtosoft.porton.Activities.Permisos">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Permisos en uso"
+        android:textSize="45sp"
+        android:gravity="center"
+        android:textColor="@color/blanco"
+        ></TextView>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="200sp"
+        android:id="@+id/listadoPermisos"
+        android:background="@color/blanco"
+        ></ListView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/blanco"
+        android:text="Generar permiso"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IdPermiso"
+        android:layout_marginTop="20sp"
+        android:hint="ID del permiso ej.Permiso01"
+        android:textColor="@color/blanco"
+        android:singleLine="true"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ClavePermiso"
+        android:layout_marginTop="20sp"
+        android:singleLine="true"
+        android:inputType="numberPassword"
+        android:hint="Clave del permiso ej. 1234"
+        android:textColor="@color/blanco"
+        android:textSize="20sp"/>
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="25sp"
+       android:gravity="center">
+
+       <Button
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:id="@+id/btnEnviarPermiso"
+           android:background="@drawable/boton_stilo"
+           android:text="Aceptar"
+           android:layout_marginEnd="10dp"
+           android:textSize="25sp"
+           android:textColor="@color/blanco"/>
+
+       <Button
+           android:layout_width="150dp"
+           android:layout_height="wrap_content"
+           android:layout_weight="1"
+           android:id="@+id/btnLimpiar"
+           android:background="@drawable/boton_stilo"
+           android:text="limpiar"
+           android:textSize="25sp"
+           android:textColor="@color/blanco"/>
+    </LinearLayout>
+
+</LinearLayout>

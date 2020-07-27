@@ -1,0 +1,35 @@
+{
+  "project_info": {
+    "project_number": "787073776391",
+    "firebase_url": "https://sealtoporton.firebaseio.com",
+    "project_id": "sealtoporton",
+    "storage_bucket": "sealtoporton.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787073776391:android:52f0939ee32dbc35",
+        "android_client_info": {
+          "package_name": "com.sealtosoft.porton.sealtoporton"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxJQMD7LabquX2WEaKYsxYNpoYy6FYRDA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787073776391-5la1tn8kcos5i1bcaj0clgi69v72hreu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,10 @@
+<actions>
+    <action intentName="actions.intent.CREATE_TAXI_RESERVATION">
+        <fulfillment
+            urlTemplate="intent:#Intent;package=com.sealtosoft.porton.sealtoporton.MainActivityaction=com.example.myapp.MY_ACTION{;S.dropoff};end">
+            <parameter-mapping
+                intentParameter="taxiReservation.dropoffLocation.name"
+                urlParameter="S.dropoff"/>
+        </fulfillment>
+    </action>
+</actions>
